@@ -1,0 +1,4 @@
+dependencies {
+    compile project(':model')
+    compile 'org.springframework.data:spring-data-jpa:1.9.4.RELEASE'
+}

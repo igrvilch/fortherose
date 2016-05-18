@@ -1,0 +1,13 @@
+allprojects {
+
+    group = 'com.fortherosesocial'
+    version = '1.0-SNAPSHOT'
+
+    apply plugin: 'java'
+    apply plugin: "groovy"
+
+    repositories {
+        jcenter()
+    }
+
+}

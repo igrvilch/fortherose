@@ -1,0 +1,14 @@
+dependencies {
+    compile 'org.hibernate:hibernate-entitymanager:5.0.9.Final'
+    compile 'commons-dbcp:commons-dbcp:1.4'
+    compile 'org.postgresql:postgresql:9.3-1103-jdbc4'
+    compile 'org.springframework:spring-webmvc:4.2.5.RELEASE'
+    compile 'org.flywaydb:flyway-core:3.2.1'
+    compile 'org.springframework.security:spring-security-config:4.0.4.RELEASE'
+    compile 'org.springframework.security:spring-security-web:4.0.4.RELEASE'
+    compile 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.7.3'
+    compile 'org.eclipse.jetty.orbit:javax.servlet:3.0.0.v201112011016'
+    compile 'org.springframework.data:spring-data-jpa:1.9.4.RELEASE'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.7.3'
+    compile project(':controllers')
+}

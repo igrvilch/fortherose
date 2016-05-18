@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/configurations/configurations.iml" filepath="$PROJECT_DIR$/configurations/configurations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/controllers/controllers.iml" filepath="$PROJECT_DIR$/controllers/controllers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fortherose.iml" filepath="$PROJECT_DIR$/fortherose.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model/model.iml" filepath="$PROJECT_DIR$/model/model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/persistence/persistence.iml" filepath="$PROJECT_DIR$/persistence/persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/services.iml" filepath="$PROJECT_DIR$/services/services.iml" />
+    </modules>
+  </component>
+</project>

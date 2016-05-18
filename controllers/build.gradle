@@ -1,0 +1,12 @@
+dependencies {
+    compile 'org.springframework.hateoas:spring-hateoas:0.19.0.RELEASE'
+    compile 'ma.glasnost.orika:orika-core:1.4.6'
+    compile 'org.springframework:spring-web:4.2.5.RELEASE'
+    compile 'org.springframework.plugin:spring-plugin-core:1.2.0.RELEASE'
+    compile 'org.hibernate:hibernate-validator:5.2.4.Final'
+    compile 'javax.validation:validation-api:1.1.0.Final'
+    compile 'org.springframework.security:spring-security-config:4.0.4.RELEASE'
+    compile project(':services')
+    compile project(':model')
+    compile 'org.eclipse.jetty.orbit:javax.servlet:3.0.0.v201112011016'
+}
