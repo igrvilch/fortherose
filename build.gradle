@@ -1,3 +1,5 @@
+apply plugin: 'war'
+
 allprojects {
 
     group = 'com.fortherosesocial'
@@ -11,3 +13,8 @@ allprojects {
     }
 
 }
+
+dependencies {
+    compile project(":configurations")
+}
+

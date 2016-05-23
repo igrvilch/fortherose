@@ -35,7 +35,7 @@ public class PersistenceConfig {
     }
 
     @Bean
-    private EntityManagerFactory entityManagerFactory() {
+    public EntityManagerFactory entityManagerFactory() {
         LocalContainerEntityManagerFactoryBean factory = new LocalContainerEntityManagerFactoryBean();
 
         HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
