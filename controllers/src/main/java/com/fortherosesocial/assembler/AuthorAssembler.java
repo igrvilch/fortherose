@@ -16,7 +16,11 @@ public class AuthorAssembler implements ResourceAssembler<Author, AuthorResource
     MapperFactory mapperFactory;
 
     @Override
-    public AuthorResource toResource(Author entity) {
-        return null;
+    public AuthorResource toResource(Author author) {
+        mapperFactory.classMap(AuthorResource.class, Author.class).byDefault().register();
+        AuthorResource authorResource = mapperFactory.getMapperFacade().map(author, AuthorResource.class);
+        authorResource.add(entityLinks.linkToSingleResource(Author.class,
+                author.getId()));
+        return authorResource;
     }
 }
